@@ -30,7 +30,13 @@ main {
 main img {
     border-radius: 15%;
     padding: 10px;
+    width: calc(calc(100% / 2) - 20px);
+}
 
+@media screen and (min-width: 545px) {
+    main img {
+        width: auto;
+    }
 }
 
 @media screen and (min-width: 1084px) {
